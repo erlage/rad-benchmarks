@@ -1,0 +1,24 @@
+{
+    "name": "js-framework-benchmark-non-keyed-rad-1.0-alpha",
+    "version": "1.0-alpha",
+    "description": "Rad 1.0-alpha (keyed)",
+    "main": "index.js",
+    "js-framework-benchmark": {
+        "frameworkVersion": "1.0-alpha"
+    },
+    "scripts": {
+        "build-dev": "dart pub get && dart2js -O2 -o build/main.dart.js web/main.dart",
+        "build-prod": "dart pub get && dart2js -O4 -o build/main.dart.js web/main.dart"
+    },
+    "keywords": [
+        "rad 1.0-alpha",
+        "dart"
+    ],
+    "author": "Stefan Krause",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/krausest/js-framework-benchmark",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/krausest/js-framework-benchmark.git"
+    }
+}

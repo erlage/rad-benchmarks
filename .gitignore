@@ -1,0 +1,15 @@
+**/dist
+**/.dist
+**/node_modules
+**/.packages
+**/.dart_tool
+**/.vscode
+**/.idea
+**/build
+**/out
+**/tmp
+**/.angular
+**/results
+**/traces
+**/__pycache__
+**/js-framework-benchmark
