@@ -30,7 +30,7 @@ class Jumbotron extends Division {
               // heading
               const Division(
                 classAttribute: 'col-md-6',
-                child: Heading1(innerText: 'Rad 0.9.1(keyed'),
+                child: Heading1(innerText: 'Rad (keyed'),
               ),
               Division(
                 classAttribute: 'col-md-6',
@@ -146,7 +146,7 @@ class Jumbotron extends Division {
                         onClick: add100ToBottom,
                       ),
                     ),
-                   
+
                     Division(
                       classAttribute: 'col-sm-6 smallpad',
                       child: Button(
