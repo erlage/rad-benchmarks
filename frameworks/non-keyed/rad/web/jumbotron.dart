@@ -30,7 +30,7 @@ class Jumbotron extends Division {
               // heading
               const Division(
                 classAttribute: 'col-md-6',
-                child: Heading1(innerText: 'Rad (keyed'),
+                child: Heading1(innerText: 'Rad (non-keyed)'),
               ),
               Division(
                 classAttribute: 'col-md-6',
