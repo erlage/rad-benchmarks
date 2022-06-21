@@ -63,7 +63,6 @@ class _AppState extends State<App> {
 
   void _run(EmittedEvent event) {
     setState(() {
-      itemCount = 0;
       _data = buildData(1000);
 
       _selected = null;
@@ -72,7 +71,6 @@ class _AppState extends State<App> {
 
   void _runLots(EmittedEvent event) {
     setState(() {
-      itemCount = 0;
       _data = buildData(10000);
 
       _selected = null;

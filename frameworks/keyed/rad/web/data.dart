@@ -1,6 +1,5 @@
 import 'package:js/js.dart';
 
-var itemCount = 0;
 var itemCountUntracked = 0;
 
 class DataItem {
