@@ -1,6 +1,6 @@
 name: rad_bench_1_0_aplha
 publish_to: none
-description: Rad 1.0-alpha JS-Benchmarks
+description: Rad JS-Benchmarks
 version: 1.0.0
 
 environment:
