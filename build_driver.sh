@@ -21,9 +21,3 @@ npm ci
 
 # move to root
 cd ../../
-
-# clean original implementations of frameworks
-rm -rf js-framework-benchmark/frameworks
-
-# move extended implementations of frameworks
-cp -fr frameworks js-framework-benchmark/

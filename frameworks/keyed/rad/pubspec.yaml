@@ -10,7 +10,7 @@ dependencies:
   rad:
     git:
       url: https://github.com/erlage/rad.git
-      ref: d76b539edbfd5a6c332f6d6a192eb59bc851ce16
+      ref: 0c203a8b9668c9b43cf3b4f878dc181397a26246
       path: packages/rad
 
 dev_dependencies:
