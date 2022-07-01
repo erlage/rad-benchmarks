@@ -7,7 +7,7 @@ import 'jumbotron.dart';
 void main() {
   runApp(
     app: const App(),
-    targetId: 'main',
+    appTargetId: 'main',
     debugOptions: DebugOptions.productionMode,
   );
 }
@@ -201,9 +201,14 @@ class ItemRow extends TableRow {
               classAttribute: 'col-md-1',
               child: Anchor(
                 onClick: removeCallback,
-                child: const Span(
-                  classAttribute: 'glyphicon glyphicon-remove',
-                ),
+                children: const [
+                  Span(
+                    classAttribute: 'glyphicon glyphicon-remove',
+                    additionalAttributes: {
+                      'aria-hidden': 'true',
+                    },
+                  ),
+                ],
               ),
             ),
             const TableDataCell(classAttribute: 'col-md-6'),
