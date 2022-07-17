@@ -26,7 +26,7 @@ class _AppState extends State<App> {
   @override
   Widget build(BuildContext context) {
     return Division(
-      classAttribute: 'container',
+      className: 'container',
       children: [
         Jumbotron(
           run: _run,
@@ -44,7 +44,7 @@ class _AppState extends State<App> {
           add100ToBottom: _add100ToBottom,
         ),
         Table(
-          classAttribute: 'table table-hover table-striped test-data',
+          className: 'table table-hover table-striped test-data',
           child: TableBody(
             children: [
               for (var dataItem in _data)
@@ -185,26 +185,26 @@ class ItemRow extends TableRow {
     required EventCallback removeCallback,
   }) : super(
           key: Key(dataItem.idString),
-          classAttribute: selected ? 'danger' : '',
+          className: selected ? 'danger' : '',
           children: [
             TableDataCell(
-              classAttribute: 'col-md-1',
+              className: 'col-md-1',
               innerText: dataItem.idString,
             ),
             TableDataCell(
-              classAttribute: 'col-md-4',
+              className: 'col-md-4',
               child: Anchor(
                 onClick: selectCallback,
                 innerText: dataItem.label,
               ),
             ),
             TableDataCell(
-              classAttribute: 'col-md-1',
+              className: 'col-md-1',
               child: Anchor(
                 onClick: removeCallback,
                 children: const [
                   Span(
-                    classAttribute: 'glyphicon glyphicon-remove',
+                    className: 'glyphicon glyphicon-remove',
                     additionalAttributes: {
                       'aria-hidden': 'true',
                     },
@@ -212,7 +212,7 @@ class ItemRow extends TableRow {
                 ],
               ),
             ),
-            const TableDataCell(classAttribute: 'col-md-6'),
+            const TableDataCell(className: 'col-md-6'),
           ],
         );
 }

@@ -306,11 +306,11 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/rad"
-      ref: "1ffcd66724dd7abfaecae559274aebe644327dbf"
-      resolved-ref: "1ffcd66724dd7abfaecae559274aebe644327dbf"
+      ref: b896fa2e303cfe118d6b0f3a0d73988108f55170
+      resolved-ref: b896fa2e303cfe118d6b0f3a0d73988108f55170
       url: "https://github.com/erlage/rad.git"
     source: git
-    version: "1.0.0-rc.1"
+    version: "1.0.1-rc.1"
   scratch_space:
     dependency: transitive
     description:
