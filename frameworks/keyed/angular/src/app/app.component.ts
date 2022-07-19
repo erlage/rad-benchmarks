@@ -61,11 +61,11 @@ export class AppComponent {
     }
 
     append() {
-        this.data.splice(0, 0, ...this.buildData(1000));
-    }
-
-    prepend() {
         this.data = this.data.concat(this.buildData(1000));
+    }
+    
+    prepend() {
+        this.data.splice(0, 0, ...this.buildData(1000));
     }
 
     update() {
