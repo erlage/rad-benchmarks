@@ -6,7 +6,7 @@ BASE_REF="1ca373285605d22d54ca59c0abd115e39ce8c80b" # 1.0.1
 
 HEAD_URL="https://github.com/erlage/rad"
 HEAD_PATH="packages/rad"
-HEAD_REF="some-ref-to-compare-against" 
+HEAD_REF="f8bf45f89555249f3beb7198ef67d14b58111cb1" # 1.1.0 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
