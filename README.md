@@ -12,6 +12,8 @@ You can check out latest published results at https://erlage.github.io.
 
 If running for the first time, build driver using `sh build_driver.sh`.
 
+> ❗ NOTE: Google Chrome will have to be installed for the benchmarks to run.
+
 ### 1. Benchmarking two versions of Rad
 
 1. Make sure server is up:
@@ -39,16 +41,16 @@ Visit: http://localhost:8080/webdriver-ts-results/table.html on your machine to 
     ```
 
 2. Run benchmarks:
-    ```
+    ```sh
     # benchmark keyed versions of Rad, React & Angular
-    sh bench_keyed.sh 
+    sh run_keyed.sh 
 
     # benchmark non-keyed versions of Rad & React
-    sh bench_non_keyed.sh 
+    sh run_non_keyed.sh 
     ```
 
 3. After running, build results table:
-    ```
+    ```sh
     sh build_results.sh
     ```
     Visit: http://localhost:8080/webdriver-ts-results/table.html on your machine to view results.
