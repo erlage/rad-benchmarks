@@ -4,7 +4,7 @@ Extended version of widely accepted [js-framework-bench](https://github.com/krau
 
 ## Results
 
-You can check out latest published results at https://erlage.github.io.
+You can check out latest published results at http://erlage.com/rad_benchmarks.
 
 **Note**: We're not here to claim that Rad is faster than 'this' or 'that'. The primary purpose of benchmarks is to discover bottlenecks that might accidently get introduced during development. Benchmarking Angular & React-JS alongside helps gaining an independent perspective about how well Rad is performing compares to JS frameworks. 
 
