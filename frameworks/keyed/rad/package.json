@@ -7,8 +7,8 @@
         "frameworkVersion": "DART"
     },
     "scripts": {
-        "build-dev": "dart pub get && dart2js -O2 -o build/main.dart.js web/main.dart --define=include.debug.utils=false",
-        "build-prod": "dart pub get && dart2js -O4 -o build/main.dart.js web/main.dart --define=include.debug.utils=false"
+        "build-dev": "dart pub get && dart compile js -O2 -o build/main.dart.js web/main.dart --define=include.debug.utils=false",
+        "build-prod": "dart pub get && dart compile js -O4 -o build/main.dart.js web/main.dart --define=include.debug.utils=false"
     },
     "keywords": [
         "rad",
